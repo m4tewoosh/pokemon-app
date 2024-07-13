@@ -3,15 +3,17 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "app/components/PokemonList.jsx",
+    "app/pokemons/[id].jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/favourite.jsx"
   ]
 }
